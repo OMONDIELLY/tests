@@ -1,0 +1,193 @@
+                                       
+.info{background-color: ;}
+
+body{
+   }
+   
+
+.primary-color{color: #d3325f;}
+
+.info h2{ word-spacing:0.6rem; }
+
+
+.info a{ transition: color 2s ease-in-out ;}
+
+info.a:hover{color: black}
+#top-icons{background-color:cyan;}
+/* header section*/
+#header{
+	min-height:calc( 100vh -94px);
+	background-image: url(images/images/hotel%20pic.jpg); 
+    background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: relative;
+	height: 500px;
+  }
+.height-90{
+	min-height: calc(100vh-4px);
+}
+.banner h1{
+	border-top: 6px dotted #c9c1ac;
+	border-bottom: 6px dotted #c9c1ac;
+	animation: fromleft;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fromleft{
+	0%{transform: translateX(-100px);
+	opacity: 0;
+	}
+	50%{transform: translatex(30px);
+	
+	}
+	100%{transform: translatex(0);
+		opacity: 1;
+		
+	}
+	
+}
+.main-btn{
+	color: #d3325f;
+	font-size: 2 rem;
+	border: 2px solid #d3325f;
+	transition: all 1s case-in-out;
+}
+.main-btn:hover{
+	color: #242424;
+	border: 2px solid #c9c1ac;
+	background: #c9c1ac;
+}
+.mombasa-btn{
+	animation: fromRight;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fromRight{
+	0%{transform: translateX(100px);
+	opacity: 0;
+	}
+	50%{transform: translatex(-30px);
+	
+	}
+	100%{transform: translatex(0);
+		opacity: 1;
+		
+	}
+	
+}
+.header-link{
+	display: inline-block;
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	background: #c9c1ac;
+	border-radius: 10px;
+	transition: all 2s ease;
+	animation: fromBottom;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	
+}
+.header-link :hover{
+	color:#242424;
+}
+@keyframes fromBottom{
+	0%{transform: translateY(10px);
+	
+	}
+	50%{transform: translateY(10px);
+	
+	}
+	100%{transform: translateY(-10px);
+	
+		
+	}
+	
+}
+
+.space{ height: 50px}
+.heading{
+	position: absolute; top: 50% ;width: :100%; text-align: center; color:red; font-size: 4rem;
+}
+
+.health tips{ text-align-last: right 50%; position: absolute; top: 50% ;width: :100%; text-align: center; color:red; font-size: 4rem; color: black}
+
+
+.descriptive{ font-family: fantasy;
+    background:url(images/images/food-1932466_960_720.jpg); 
+ background-position: center;
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+position: relative;
+	height: 500px;
+color: white;
+}
+
+
+.meal:hover{color: #c9c1ac}
+<!----------------------------------------booking------------------------------------------------------>
+#select{ box-shadow: 5px 10px #888888;}
+<!---------------form>
+.form{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font:aerial;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	transform: translate(-50px,-50px);
+	width: 480px;
+	
+}     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
