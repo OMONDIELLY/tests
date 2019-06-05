@@ -1,2 +1,2 @@
 # tests
-first website
+first website(hotel bookings)
